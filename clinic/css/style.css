@@ -1,0 +1,387 @@
+header,
+#menu,
+#pagetop,
+#contents,
+footer {
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+header {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#shashin1 {
+    width: 1000px;
+    float: left;
+}
+#menu {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+.col-md-3 {
+    list-style-type: none;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    color: #534123;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#menu .col-md-3 a {
+    height: 0px;
+    padding-top: 35px;
+    margin-right: 0;
+    margin-left: 0px;
+    display: block;
+    overflow: hidden;
+}
+#a {
+    background-image: url(../images/byouinnannnai.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#b {
+    background-image: url(../images/shinnsatsuannnai.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#c {
+    background-image: url(../images/kanjyasamanokoe.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#d {
+    background-image: url(../images/koutuuannnai.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#annai #a a,
+#a a:hover {
+    background-image: url(../images/byouinnannnai2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#shinsatsu #b a,
+#b a:hover {
+    background-image: url(../images/shinatuannnai2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#koe #c a,
+#c a:hover {
+    background-image: url(../images/kannjyasamanokoe2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#koutsu #d a,
+#d a:hover {
+    background-image: url(../images/koutuuannnai2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#topmyasuke {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#contents {
+    overflow: hidden;
+}
+#right_ContArea {
+    width: 300px;
+    margin-right: 0;
+    float: right;
+    text-align: right;
+}
+#clock {
+    width: 300px;
+    height: auto;
+    border: solid #89b056 3px;
+    margin-right: 0px;
+  margin-top: 10px;
+    text-align: center;
+}
+#time {
+    font-size: 40px;
+}
+#date {
+    font-size: 40px;
+}
+#main-contentarea {
+    /*     height:600px;*/
+    width: 700px;
+    float: left;
+}
+#left_ContArea {
+    width: 700px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#matome {
+    width: 570px;
+    float: left;
+    margin-right: 0;
+}
+#migi {
+    float: right;
+    margin-right: 20px
+}
+#scroll {
+    overflow: scroll;
+    height: 400px;
+    width: 695px;
+    border-style: solid;
+    border-color: #c1e0b1;
+    border-radius: 20px;
+    border-width: thick;
+}
+.whatsnew {
+    height: auto;
+    padding-left: 50px;
+    border-bottom: 2px dotted #89b056;
+}
+.time {
+    padding-top: 10px;
+}
+.akuse {
+    padding-left: 50px;
+}
+.kaisetsu {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    background-color: #c1e0b1;
+    border-radius: 30px;
+    width: 385px;
+}
+#copyright {
+    text-align: center;
+    margin-top: 30px;
+}
+#pagetop {
+    text-align: right;
+}
+footer {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    color: #534123;
+    background-color: #89b056;
+    position: bottom;
+    text-align: center;
+}
+#jyusho {
+    margin-top: 20px;
+}
+
+/*ここからshinsatsu*/
+
+.imageright {
+    float: right;
+    margin-right: 20px;
+}
+.box1 {
+    overflow: hidden;
+}
+hr {
+    border: #c1e0b1 dotted;
+    border-width: 2px;
+}
+
+/*診療案内*/
+
+table {
+    text-align: center;
+}
+table th,
+table td {
+    border: 1px solid #6c5f45;
+    padding: 15px;
+}
+table th {
+    width: 120px;
+}
+table td {
+    width: 60px;
+}
+table thead {
+    background-color: lightblue;
+}
+.oyasumi {
+    background-color: lightgrey;
+}
+.rigyo {
+    background-color: lightgoldenrodyellow;
+}
+.jikan {
+    background-color: lightcyan
+}
+.point {
+    border-left: solid;
+    border-left-color: #89b056;
+    border-left-width: 15px;
+}
+
+/*/koe.html*/
+
+.myasuke {
+    border-radius: 270px;
+    -moz-border-image: border-radius: 270px;
+    -webkit-border-image: border-radius: 270px;
+}
+#sau {
+    float: right;
+}
+#article1 {
+    overflow: hidden;
+}
+#article2 {
+    margin-top: 20px;
+}
+.first {
+    width: 400px;
+}
+.second {
+    width: 690px;
+}
+
+/*交通案内*/
+
+#mainnav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*メディアQuery*/
+
+@media screen and (max-width:1000px) {
+    header,
+    #menu,
+    #pagetop,
+    #contents,
+    footer,
+    #left_ContArea,
+    #matome,
+    #main-contentarea {
+        width: 100%;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #right_ContArea {
+        display: none;
+    }
+    #shashin1 {
+        max-width: 100%;
+        height: auto;
+        min-height: 30px;
+    }
+    #matome {
+        margin: 0;
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    #contents {
+        text-align: center;
+    }
+    #main-contentarea {
+        text-align: center;
+    }
+    #left_ContArea {
+        text-align: center;
+    }
+    #scroll {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .whatsnew {
+        padding: 0;
+    }
+    .akuse {
+        padding: 0;
+    }
+    .kaisetsu {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #migi {
+        display: none;
+    }
+    br {
+        display: none;
+    }
+    #article2 {
+        width: 100%;
+    }
+    iframe {
+        display: none;
+    }
+    .second {
+        width: 100%;
+    }
+    .first {
+        width: 100%;
+    }
+    h3 {
+        width: 100%;
+    }
+    #sau {
+        float: none;
+    }
+    table {
+        width: 100%;
+        height: auto;
+    }
+    table td {
+        padding: 0;
+    }
+    table th {
+        padding: 0;
+    }
+    .point {
+        border-left: 0;
+    }
+    span {
+        display: inline-block;
+    }
+    .imageright {
+        float: none;
+    margin-right: 20px;
+    }
+}

@@ -1,0 +1,638 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*    ローディング画面*/
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    animation: fadeout .5s 8s both;
+    background-color: white;
+}
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+#top {
+    position: relative;
+    height: 100vh;
+}
+#icon {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    margin: calc(50vh - 100px) auto;
+    margin-top: 100px;
+    margin-bottom: 0;
+    text-align: center;
+    background-image: url(../images/mainflower.jpg);
+}
+#text {
+    font-family: 'Calligraffitti', cursive;
+    font-size: 60px;
+    position: absolute;
+    width: 700px;
+    top: 185px;
+    text-align: center;
+}
+#bunsho {
+    animation: fadein 8s .5s both;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        visibility: hidden;
+    }
+}
+#bunsho2 {
+    animation: fadein2 6s 3s both;
+}
+@keyframes fadein2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        visibility: hidden;
+    }
+}
+
+/*
+
+toppageスタート
+
+*/
+
+#icon2 {
+    margin-left: none;
+    margin-right: none;
+    text-align: center;
+}
+#head {
+    font-size: 35px;
+}
+
+/*メニューバー*/
+
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#kotei {
+    background-color: #d3cccc;
+}
+ul {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+.hidari a {
+    height: 0px;
+    padding-top: 30px;
+    margin-right: 0;
+    margin-left: 0px;
+    display: block;
+    overflow: hidden;
+}
+.col-md-3 {
+    padding: 0;
+    list-style-type: none;
+}
+.col-md-3 .hidari#home a {
+    background-image: url(../images/HOME1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s;
+    border: 1px solid #FFFFFF;
+    background-color: #d3cccc;
+}
+.col-md-3 .hidari#home a:hover {
+    opacity: 0.4;
+}
+.col-md-3 .hidari#about a {
+    background-image: url(../images/ABOUT1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s;
+    border: 1px solid #FFFFFF;
+    background-color: #d3cccc;
+}
+.col-md-3 .hidari#about a:hover {
+    opacity: 0.4;
+}
+.col-md-3 .hidari#Flowers a {
+    background-image: url(../images/FLOWERS1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s;
+    border: 1px solid #FFFFFF;
+    background-color: #d3cccc;
+}
+.col-md-3 .hidari#Flowers a:hover {
+    opacity: 0.4;
+}
+.col-md-3 .hidari#information a {
+    background-image: url(../images/CONTACT1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s;
+    border: 1px solid #FFFFFF;
+    background-color: #d3cccc;
+}
+.col-md-3 .hidari#information a:hover {
+    opacity: 0.4;
+}
+
+/*カルーセル*/
+
+#carousel-example-generic {
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/*about us部分*/
+
+.fadeInDown {
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 5s;
+    -ms-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+.fadeIn {
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    visibility: visible !important;
+}
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(30px);
+        -ms-transform: translateY(30px);
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+#about2 {
+    visibility: hidden;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+#text3 {
+    font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+    color: #6E6E6E;
+}
+#animation3 img {
+    margin-top: 35px;
+}
+
+/*
+
+モーダル部分
+*/
+
+.leftblock {
+    margin: 0;
+}
+.leftblock {
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 10px
+}
+.mainBox {
+    float: left;
+}
+.rightBlock {
+    float: left;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 10px
+}
+.gallerybox {
+    overflow: hidden;
+    text-align: center;
+}
+#chuuou {
+    width: 1080px;
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Flowers2 {
+    text-align: center;
+    width: 30wh;
+}
+.img4 a img:hover {
+    opacity: 0.4;
+}
+.img4 {
+    margin-top: 100px;
+}
+
+/*
+#point{
+ text-align: center;   
+}
+.col-md-4 {
+    text-align: center;
+}
+.img-rounded {
+    transition: .5s;
+}
+.img-rounded:hover {
+    opacity: 0.5;
+}
+.btn-primary:hover {
+    background-color: white;
+    border-color: white;
+}
+.btn-lg,
+.btn-group-lg > .btn {
+    padding: 0;
+    border-color: white;
+}
+*/
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Calligraffitti', cursive;
+    text-align: center;
+}
+
+/*お問い合わせ*/
+
+.contact {
+    width: 50vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+.okotowari {
+    font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+    text-align: center;
+    color: #6E6E6E;
+    margin-bottom: 30px;
+}
+#information2 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+label {
+    font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+}
+.help-block {
+    font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+}
+#exampleInputFile {
+    font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+}
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    max-width: 600px;
+}
+#info {
+    font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+}
+#info ul {
+    list-style-type: none;
+}
+#info ul li {
+    display: inline;
+    margin-left: 5px;
+    margin-left: 5px;
+}
+#copyright {
+    text-align: center;
+    margin-top: 80px;
+}
+#info {
+    text-align: center;
+    background-color: #FCF2EE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+#inputHelpBlock {
+    height: 5em;
+    overflow: scroll;
+}
+
+/*共通部分*/
+
+#page-top p {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    transition: 0.3s;
+}
+#page-top p:hover {
+    opacity: 0.5;
+}
+
+/*base.htmlここから*/
+
+#sample {
+    text-align: center;
+    margin-top: 20px;
+}
+.pictures {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Calligraffitti', cursive;
+}
+
+.col-md-2{
+ margin-bottom: 15px;   
+}
+
+/*レスポンシブル1080px以下*/
+@media screen and (max-width:1080px) {
+
+    #about2 {
+        visibility: visible;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .fadeInDown {
+        animation-name: none;
+    }
+    .fadeIn {
+        animation-name: none;
+    }
+    #copyright {
+        margin-top: 30px;
+    }
+    .gallerybox {
+        text-align: center;
+    }
+    
+    .mainBox {
+        width: 100%;
+    }
+    
+    .img1 {
+        display: none;
+    }
+    .img2 {
+        display: none;
+    }
+    .img3 {
+        display: none;
+    }
+    .img4 {
+        width: 90vw;
+        height: auto;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img5 {
+        display: none;
+    }
+    .img6 {
+        display: none;
+    }
+    .img7 {
+        display: none;
+    }
+    .img8 {
+        display: none;
+    }
+    #information2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #text3 {
+        font-size: .9em;
+    }
+    .okotowari {
+        font-size: .9em;
+    }
+      #loading {
+        display: none;
+    }
+}
+/*タブレット対応790px*/
+
+@media screen and (max-width:790px) {
+
+    #about2 {
+        visibility: visible;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .fadeInDown {
+        animation-name: none;
+    }
+    .fadeIn {
+        animation-name: none;
+    }
+    #copyright {
+        margin-top: 30px;
+    }
+    .gallerybox {
+        text-align: center;
+    }
+    
+    .mainBox {
+        width: 100%;
+    }
+    
+    .img1 {
+        display: none;
+    }
+    .img2 {
+        display: none;
+    }
+    .img3 {
+        display: none;
+    }
+    .img4 {
+        width: 90vw;
+        height: auto;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img5 {
+        display: none;
+    }
+    .img6 {
+        display: none;
+    }
+    .img7 {
+        display: none;
+    }
+    .img8 {
+        display: none;
+    }
+    #information2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #text3 {
+        font-size: .9em;
+    }
+    .okotowari {
+        font-size: .9em;
+    }
+      #loading {
+        display: none;
+    }
+}
+
+/*スマホ360px対応*/
+
+@media screen and (max-width:360px) {
+    div.leftblock,
+    div.mainBox,
+    div.rightBlock {
+        text-align: center;
+    }
+    #carousel-example-generic {
+        margin-top: 5px;
+    }
+    #about2 {
+        visibility: visible;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .fadeInDown {
+        animation-name: none;
+    }
+    .fadeIn {
+        animation-name: none;
+    }
+    .gallerybox {
+        text-align: center;
+    }
+    .mainBox {
+        width: 100%;
+    }
+    .img1 {
+        display: none;
+    }
+    .img2 {
+        display: none;
+    }
+    .img3 {
+        display: none;
+    }
+   
+    .img5 {
+        display: none;
+    }
+    .img6 {
+        display: none;
+    }
+    .img7 {
+        display: none;
+    }
+    .img8 {
+        display: none;
+    }
+    #information2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #copyright {
+        margin-top: 30px;
+    }
+    #text3 {
+        font-size: .7em;
+    }
+    .okotowari {
+        font-size: .7em;
+    }
+    #loading {
+        display: none;
+    }
+}

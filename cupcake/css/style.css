@@ -1,0 +1,327 @@
+body {
+    font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+}
+
+/*ヘッダー*/
+
+header {
+    position: relative;
+    height: 100vh;
+    font-size: 15px;
+    text-align: center;
+    background-color: #f9eee8;
+    line-height: 0, 5em;
+}
+#matomari {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 300px;
+    text-align: center;
+}
+#toptitle {
+    font-size: 3em;
+    font-family: 'Zeyada', cursive;
+}
+#second {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 20px;
+    text-transform: none;
+    color: gray;
+    margin-top: 0;
+    padding-top: 0;
+}
+.more {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#menu {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+}
+#menu li {
+    width: 25%;
+    margin-left: auto;
+    margin-left: auto;
+    float: left;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#menu li a {
+    color: black;
+    width: auto;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-decoration: none;
+    display: block;
+    background: #f9eee8;
+    margin: 0;
+}
+#menu li a:hover {
+    background: #faf7f7;
+}
+
+/*アバウトアス*/
+
+#aboutus {
+    /*     margin-top: 50px;*/
+    height: auto;
+    background-image: url(../image/Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 70px;
+/*    padding-bottom: 70px;*/
+}
+
+/*ニュース*/
+
+#new {
+    text-align: center;
+    padding-top: 70px;
+}
+
+/*メニュー*/
+
+button {
+    background-color: white;
+    border: 0;
+}
+#cup_content {
+    width: 80%;
+    margin-left: 10%;
+    /*     margin-top: 100px;*/
+}
+.topic {
+    font-size: 30px;
+}
+#text1 {
+    font-size: 0.9em;
+}
+.realcup {
+    max-width: 100%;
+    height: auto;
+}
+.realcup2 {
+    font-family: 'Homemade Apple', cursive;
+    background-image: url(../image/sweet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+#cups {
+    text-align: center;
+    padding-top: 70px;
+}
+.cupcake {
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+}
+.cupcake:hover {
+    opacity: 0.6
+}
+.comment {
+    height: 50px;
+    width: 150px;
+    font-family: 'Homemade Apple', cursive;
+    max-font-size: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1em;
+    padding-top: 0;
+    margin-top: 0;
+}
+.modal-content {
+    font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+}
+
+/*インフォメーション*/
+
+section {
+    position: relative;
+}
+#forcontact {
+    position: relative;
+/*    padding-top: 70px;*/
+}
+footer {
+    position: absolute;
+    background-color: #f9eee8;
+    text-align: center;
+    vertical-align: bottom;
+    height: 70px;
+    bottom: 0;
+    margin-top: 70px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.map {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+#contact {
+    padding-top:50px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    width: 94%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 100px;
+}
+
+/*コンタクト.html*/
+
+#toptext {
+    text-align: center;
+    background-color: #f9eee8;
+}
+#texttext {
+    /* position: absolute;  */
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+/*    height:700px;*/
+}
+#otoiawase {
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(../image/back02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#footer {
+    text-align: center;
+    height: auto;
+    background-color: #f9eee8;
+    margin-top: 200px;
+}
+input[type="text"] {
+    width: 200px;
+}
+input[type="email"] {
+    width: 300px;
+}
+.naiyou {
+    width: 300px;
+}
+#page-top p {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    transition: 0.3s;
+}
+#page-top p:hover {
+    opacity: 0.5;
+}
+move-page-top {
+    z-index: 50
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/*メディアQueryスタート*/
+
+@media screen and (max-width:1000px) {
+    .cupcake {
+        width: 100px;
+        height: auto;
+        margin: 0;
+    }
+    .cupcake img {
+        width: 100px;
+        height: auto;
+    }
+    header {
+        font-size: 10px;
+    }
+    #toptitle {
+        font-size: 40px;
+    }
+    #second {
+        font-size: 15px;
+    }
+    #text1 {
+        font-size: 0.9em;
+    }
+    .back1 {
+        right: 20px;
+    }
+}
+@media screen and (max-width:500px) {
+    #cup_content {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .cupcake {
+        width: 100px;
+    }
+    .cupcake img {
+        width: 70px;
+        height: auto;
+    }
+    #aboutus {
+        width: 94%;
+        margin-right: 3%;
+        margin-left: 3%;
+        background-image: url(../image/Wallpaper2.jpg);
+        background-size: contain;
+        background-repeat: repeat-y;
+    }
+    .realcup {
+        max-width: 70%;
+        height: auto;
+    }
+    .more {
+        display: none;
+    }
+    header {
+        font-size: 10px;
+    }
+    #toptitle {
+        font-size: 50px;
+    }
+    #second {
+        font-size: 15px;
+    }
+    #text1 {
+        font-size: 0.7em;
+    }
+    .back1 {
+        right: 0px;
+    }
+}
