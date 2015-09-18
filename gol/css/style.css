@@ -64,6 +64,9 @@ overflow: hidden;
 .col-md-4{
 padding: 0px;
 }
-
+.row{
+     margin-right: 0px;
+    margin-left: 0px;   
+}
 
 
