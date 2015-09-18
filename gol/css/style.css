@@ -84,6 +84,11 @@ font-size: 20px;
 #shop{
  margin-bottom:50px;   
 }
+.shopshop{
+max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 footer{
  margin-top: 100px;   
