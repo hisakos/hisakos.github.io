@@ -1,7 +1,7 @@
 body{
  font-size: 3px;   
 text-align: center;
-     font-family: 'Open Sans', sans-serif;
+     font-family: font-family: "LacosteSans",'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Helvetica,Arial,sans-serif;
 }
 .top1{
  max-width: 100%;
@@ -9,6 +9,7 @@ text-align: center;
     margin-left: auto;
     text-align: center;
 }
+/*
 .top2 {
    font-size: 10em;
     letter-spacing: -0.1em;
@@ -17,6 +18,7 @@ text-align: center;
     color: #C0C0C0;
     font-family: 'Open Sans', sans-serif;
 }
+*/
 .box {
 height: 50px;
 background-color: black;
@@ -53,13 +55,17 @@ overflow: hidden;
 #menu li a:hover {
   background:#555;
 }
+#about{
+margin-left: 20px;
+    margin-right: 20px;
+}
 #aboutnext{
  font-size:5em;   
 }
 .titlelogo{
-    margin-top: 50px;
-    margin-bottom: 20px;
- font-size:10em;   
+    margin-top: 60px;
+    margin-bottom: 30px;
+ font-size:15em;   
 }
 .col-md-4{
 padding: 0px;
@@ -67,6 +73,20 @@ padding: 0px;
 .row{
      margin-right: 0px;
     margin-left: 0px;   
+margin-top:15px;
+    margin-bottom: 15px;
+}
+.border{
+    font-weight: bold;
+font-size: 20px;
+}
+
+#shop{
+ margin-bottom:50px;   
+}
+
+footer{
+ margin-top: 100px;   
 }
 
 
