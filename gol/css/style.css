@@ -55,6 +55,16 @@ overflow: hidden;
 #menu li a:hover {
   background:#555;
 }
+#carousel-example-generic {
+    margin-right: auto;
+    margin-left: auto;
+}
+.carousel-inner img {
+    max-width: 100%;
+
+        margin-right: auto;
+    margin-left: auto;
+}
 #about{
 margin-left: 20px;
     margin-right: 20px;
