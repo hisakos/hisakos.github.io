@@ -86,22 +86,41 @@ padding: 0px;
 margin-top:15px;
     margin-bottom: 15px;
 }
+
+#shop{
+ margin-bottom:50px;
+    overflow: hidden;
+    width:100%;
+/*      display:table-cell;*/
+/*    vertical-align: middle;*/
+        margin-left: auto;
+    margin-right: auto;
+
+  
+}
 .border{
     font-weight: bold;
 font-size: 20px;
+/*    float: left;*/
 }
-
-#shop{
- margin-bottom:50px;   
+/*
+#shoppic{
+ float:left;   
 }
-.shopshop{
-max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
+*/
 
 footer{
  margin-top: 100px;   
+}
+
+#page-top p {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    transition: 0.3s;
+}
+#page-top p:hover {
+    opacity: 0.5;
 }
 
 
